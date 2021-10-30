@@ -6,7 +6,7 @@ public class ScoreOnDestroy : MonoBehaviour
 {
     public int ScoreValue = 50;
 
-    private void OnDestroy()
+    private void Die()
     {
         GameController.Score += ScoreValue;
     }

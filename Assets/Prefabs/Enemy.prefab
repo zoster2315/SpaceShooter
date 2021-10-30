@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathParticlesPrefab: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
-  ShouldDestroyOnDeath: 1
+  ShouldDestroyOnDeath: 0
   _HealthPoints: 100
 --- !u!114 &646963142309998293
 MonoBehaviour:

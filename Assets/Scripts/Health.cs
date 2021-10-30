@@ -28,6 +28,11 @@ public class Health : MonoBehaviour
                 {
                     Destroy(gameObject);
                 }
+                else
+                {
+                    gameObject.SetActive(false);
+                    //if (gameObject.tag == "Enemy")
+                }
             }
         }
     }
